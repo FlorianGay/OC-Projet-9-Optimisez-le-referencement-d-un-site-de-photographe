@@ -60,6 +60,8 @@ body {
 	max-height: 391.2px;
 }
 
+
+
 /********************/
 
 #about {
@@ -122,7 +124,8 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	/*background-color: #BEB45A;*/
+	background-color: #5E5926;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
