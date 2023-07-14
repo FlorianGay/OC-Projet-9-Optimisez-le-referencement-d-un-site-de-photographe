@@ -3,7 +3,8 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter';
+	font-family: 'Inter', sans-serif;
+	font-display: optional;
 	font-style: normal;
 }
 .top-header {
