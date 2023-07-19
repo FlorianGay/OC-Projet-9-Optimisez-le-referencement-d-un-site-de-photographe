@@ -66,6 +66,12 @@ nav a {
 	max-height: 666px;
 }
 
+main {
+	width: 100%;
+	max-width: 1920px;
+	height: auto;
+}
+
 /********************/
 
 #about {
