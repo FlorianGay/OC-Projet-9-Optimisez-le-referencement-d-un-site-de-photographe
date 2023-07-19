@@ -593,10 +593,10 @@ progress {
   content: "— ";
 }
 
-/*.img-fluid {
+.img-fluid {
   max-width: 100%;
   height: auto;
-}*/
+}
 
 .img-thumbnail {
   padding: 0.25rem;
