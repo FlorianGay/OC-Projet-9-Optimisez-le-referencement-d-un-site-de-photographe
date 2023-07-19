@@ -99,8 +99,6 @@ nav a {
 }
 #about-me {
 	flex: 2;
-    height: 100%;
-    max-height: 400px;
 }
 .about-me__title {
 	margin-top: 1em;
