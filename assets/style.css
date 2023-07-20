@@ -8,9 +8,8 @@ body {
 	margin: auto;
 }
 * {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Inter';
 	font-style: normal;
-	font-display: optional;
 }
 .top-header {
 	background-color: white;
@@ -72,6 +71,18 @@ nav a {
 	max-height: 666px;
 }
 
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style-type: none;
+}
+
+.nav li {
+	padding-inline: 10px;
+}
+
 /********************/
 
 #about {
@@ -116,15 +127,13 @@ nav a {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 1rem;
 }
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
-/*
-#gallery {
-	/*	min-height: 100vh; 
-}*/
+
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -291,7 +300,7 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
+	#about-me h3, #about-me p {
 		width: 100%;
 	}
 }
@@ -360,11 +369,11 @@ input[type="submit"] {
 		flex-direction: column;
 		padding-inline: 0;
 	}
-	.top-header .nav, .top-header .nav ul {
+	nav, nav ul {
 		width: 100%;
 		padding: 0 0 0 0;
 	}
-	.top-header .nav li {
+	nav li {
 		flex: 1;
 		padding-block: 1em;
 		text-align: center;
@@ -385,8 +394,21 @@ input[type="submit"] {
 	form {
 		width: 100%;
 	}
-	.picture {
-		width: 80%;
+	
+
+	/* code ajouter */
+
+	.carousel_img {
+		max-width: 650px;
 	}
+
+	.about_profile_picture {
+		max-width: 200px;
+	}
+
+	.title {
+		padding-block: 15px;
+	}
+	
 }
 
