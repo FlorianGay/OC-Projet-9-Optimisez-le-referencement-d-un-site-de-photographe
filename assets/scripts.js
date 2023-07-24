@@ -17,7 +17,7 @@ $(document).ready(function() {
 function setLazyImg() {
     const screenWidth = window.innerWidth;
     const screenMobile = 768;
-    const imgCarousel = document.querySelectorAll('.carousel_img')
+    const imgCarousel = document.querySelectorAll('.carousel_img_load')
 
     imgCarousel.forEach(image => {
         if(screenWidth <= screenMobile){
