@@ -203,7 +203,12 @@
 				</form>
 			</div>
 			<div class="picture right">
-				<img src="./assets/images/camera.webp" alt="picture of a camera" class="contact_picture_illustration" loading="lazy">
+				<picture>
+					<source srcset="./assets/images/camera_small.webp" media="(max-width: 650px)">
+					<source srcset="./assets/images/camera.webp" media="all">
+					<img src="./assets/images/camera.webp" alt="picture of a camera" class="contact_picture_illustration" loading="lazy">
+				</picture>
+				
 			</div>
 		</div>
 		</div>
