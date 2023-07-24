@@ -13,3 +13,21 @@ $(document).ready(function() {
         tagsPosition: 'top'
     });
 });
+
+function setLazyImg() {
+    const screenWidth = window.innerWidth;
+    const screenMobile = 768;
+    const imgCarousel = document.querySelectorAll('.carousel_img')
+
+    imgCarousel.forEach(image => {
+        if(screenWidth <= screenMobile){
+        image.setAttribute('loading', 'lazy')
+    }else {
+        image.removeAttribute('loading')
+    }
+    })
+}
+
+setLazyImg();
+window.addEventListener('resize', setLazyImg);
+
