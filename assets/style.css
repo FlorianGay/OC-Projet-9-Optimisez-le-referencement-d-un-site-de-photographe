@@ -23,7 +23,7 @@ body {
 	align-items: center;
 }
 
-.top-header .name {
+ .name {
 	font-size: 26px;
 }
 
@@ -408,6 +408,10 @@ input[type="submit"] {
 
 	.title {
 		padding-block: 15px;
+	}
+
+	.name {
+		font-size: 16px;
 	}
 	
 }
